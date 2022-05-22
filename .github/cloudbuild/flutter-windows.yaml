@@ -21,7 +21,7 @@ steps:
     id: build-and-test
     timeout: 5400s # 1.5 hours
     args:
-      - --machineType=n2-highcpu-8
+      - --machineType=n1-highcpu-8
       - --image=windows-cloud/global/images/windows-server-2019-dc-for-containers-v20220414
       - --diskType=pd-ssd
       - --workspace-bucket=$_WORKSPACE_TMP_BUCKET
